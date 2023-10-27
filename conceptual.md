@@ -35,9 +35,11 @@ async function getUsers() {
   return [elie, matt, joel];
 }
 ```
-
-<!-- 3 separate requests that are dependent on the last one finishing up, can be optimized with promise.all/promise chaining
+<!-- 
+3 separate requests that are dependent on the last one finishing up, can be optimized with promise.all/promise chaining
 
 api base url is redundant, can be shortened with a base api url variable
 
-hard coding 3 users is bad practice for scaling, instead - getJSON on a loop of users -->
+hard coding 3 users is bad practice for scaling, instead - getJSON on a loop of users
+
+no error handling -->
