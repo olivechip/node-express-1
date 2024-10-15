@@ -12,18 +12,18 @@
   <meta property="og:url" content="https://www.postgresql.org/" />
   <meta property="og:type" content="article" />
   <meta property="article:author" content="PostgreSQL Global Development Group" />
-  <meta property="article:published_time" content="2023-10-27T01:54:00.841535" />
+  <meta property="article:published_time" content="2024-10-15T02:37:31.130198" />
   <meta property="og:image" content="https://www.postgresql.org/media/img/about/press/elephant.png" />
   <meta property="og:title" content="PostgreSQL" />
   <meta property="og:description" content="The world&#x27;s most advanced open source database." />
   <meta property="og:site_name" content="PostgreSQL" />
-  <link href="/media/css/fontawesome.css?963d9b7b" rel="stylesheet">
+  <link href="/media/css/fontawesome.css?606fd482" rel="stylesheet">
   <link rel="stylesheet" href="/media/css/bootstrap-4.4.1.min.css">
   <link rel="shortcut icon" href="/favicon.ico" />
   
-  <link rel="stylesheet" type="text/css" href="/dyncss/base.css?963d9b7b">
+  <link rel="stylesheet" type="text/css" href="/dyncss/base.css?606fd482">
 
-  <script src="/media/js/theme.js?963d9b7b"></script>
+  <script src="/media/js/theme.js?606fd482"></script>
 
   
   </head>
@@ -67,8 +67,8 @@
         </div>
       </div>
       <div class="row justify-content-center pg-shout-box">
-        <div class="col text-white text-center">14th September 2023: <a href="/about/news/postgresql-16-released-2715/">
-  PostgreSQL 16 Released!
+        <div class="col text-white text-center">September 26, 2024: <a href="/about/news/postgresql-17-released-2936/">
+  PostgreSQL 17 Released!
 </a>
 
 </div>
@@ -110,6 +110,7 @@
       </div>
       <a href="/about/" title="Learn More"><button type="button" class="btn btn-center btn-primary btn-inline-block">Learn More</button></a>
       <a href="/about/featurematrix/" title="Feature Matrix"><button type="button" class="btn btn-center btn-primary btn-inline-block">Feature Matrix</button></a>
+      <a href="/about/governance/" title="Governance"><button type="button" class="btn btn-center btn-primary btn-inline-block">Governance</button></a>
     </div>
     <!-- END Feature -->
 
@@ -120,49 +121,54 @@
       <div class="text">
         <p>
           <strong>
-            2023-09-14 -
-            <a href="/about/news/postgresql-16-released-2715/">
-              PostgreSQL 16 Released!
+            2024-09-26 -
+            <a href="/about/news/postgresql-17-released-2936/">
+              PostgreSQL 17 Released!
             </a>
           </strong>
         </p>
         <p>
-          The PostgreSQL Global Development Group today announced the
-          <a href="/about/news/postgresql-16-released-2715/">release of PostgreSQL 16</a>,
-          the latest version of the world's most advanced open source database.
+          The PostgreSQL Global Development Group today announced the release of
+          <a href="/docs/17/release-17.html">PostgreSQL 17</a>, the latest
+          version of the world's most advanced open source database.
         </p>
         <p>
-          <a href="/docs/16/release-16.html">PostgreSQL 16</a> raises its
-          performance, with notable improvements to query parallelism, bulk data
-          loading, and logical replication. There are many features in this
-          release for developers and administrators alike, including more
-          SQL/JSON  syntax, new monitoring stats for your workloads, and greater
-          flexibility in defining access control rules for management of
-          policies across large fleets.
+          PostgreSQL 17 builds on decades of open source development, improving
+          its performance and scalability while adapting to emergent data access
+          and storage patterns. This release of PostgreSQL adds significant
+          overall performance gains, including an overhauled memory management
+          implementation for vacuum, optimizations to storage access and
+          improvements for high concurrency workloads, speedups in bulk loading
+          and exports, and query execution improvements for indexes.
+          PostgreSQL 17 has features that benefit brand new workloads and
+          critical systems alike, such as additions to the developer experience
+          with the SQL/JSON <code>JSON_TABLE</code> command, and enhancements to
+          logical replication that simplify management of high availability
+          workloads and major version upgrades.
         </p>
         <p>
-          For the full list of features in PostgreSQL 16, please review the
-          <a href="/docs/16/release-16.html">release notes</a>. You can download
-          PostgreSQL 16 from the <a href="/download/">download</a> page.
+          For the full list of features in PostgreSQL 17, please review the
+          <a href="/docs/17/release-17.html">release notes</a>. You can download
+          PostgreSQL 17 from the <a href="/download/">download</a> page.
         </p>
         <p>
-          For
-          <a href="/about/press/">translations of the release announcement</a>,
+          For the <a href="/about/press/"></a>full press release</a>
+          and <a href="/about/press/">translations of the release announcement</a>,
           please visit the <a href="/about/press/">press kit</a>.
         </p>
         <ul>
           
-            <li class=""><strong>16.0</strong> &middot; 2023-09-14 &middot; <a href="/docs/16/release-16.html">Notes</a></li>
+            <li class=""><strong>17.0</strong> &middot; 2024-09-26 &middot; <a href="/docs/17/release-17.html">Notes</a></li>
           
-            <li class="pg-bg-gray"><strong>15.4</strong> &middot; 2023-08-10 &middot; <a href="/docs/15/release-15-4.html">Notes</a></li>
+            <li class="pg-bg-gray"><strong>16.4</strong> &middot; 2024-08-08 &middot; <a href="/docs/16/release-16-4.html">Notes</a></li>
           
-            <li class=""><strong>14.9</strong> &middot; 2023-08-10 &middot; <a href="/docs/14/release-14-9.html">Notes</a></li>
+            <li class=""><strong>15.8</strong> &middot; 2024-08-08 &middot; <a href="/docs/15/release-15-8.html">Notes</a></li>
           
-            <li class="pg-bg-gray"><strong>13.12</strong> &middot; 2023-08-10 &middot; <a href="/docs/13/release-13-12.html">Notes</a></li>
+            <li class="pg-bg-gray"><strong>14.13</strong> &middot; 2024-08-08 &middot; <a href="/docs/14/release-14-13.html">Notes</a></li>
           
-            <li class=""><strong>12.16</strong> &middot; 2023-08-10 &middot; <a href="/docs/12/release-12-16.html">Notes</a></li>
+            <li class=""><strong>13.16</strong> &middot; 2024-08-08 &middot; <a href="/docs/13/release-13-16.html">Notes</a></li>
           
-            <li class="pg-bg-gray"><strong>11.21</strong> &middot; 2023-08-10 &middot; <a href="/docs/11/release-11-21.html">Notes</a></li>
+            <li class="pg-bg-gray"><strong>12.20</strong> &middot; 2024-08-08 &middot; <a href="/docs/12/release-12-20.html">Notes</a></li>
           
         </ul>
       </div>
@@ -183,37 +189,49 @@
       <div class="text">
         <ul>
           
+            <li class=" ">
+              
+                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
+              
+              2024-10-20 &middot; <a href="/about/event/pgday-israel-2024-2503/">PGDay Israel 2024</a>
+            </li>
+          
+            <li class="pg-bg-gray ">
+              
+                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
+              
+              2024-10-22 &ndash; 2024-10-25 &middot; <a href="/about/event/pgconfeu-2024-2507/">PGConf.EU 2024</a>
+            </li>
+          
             <li class=" non-badged">
               
-              2023-11-14 &ndash; 2023-11-17 &middot; <a href="/about/event/pass-data-community-summit-2023-2481/">PASS Data Community SUMMIT 2023</a>
+              2024-11-04 &ndash; 2024-11-08 &middot; <a href="/about/event/pass-data-community-summit-2024-2514/">PASS Data Community Summit 2024</a>
             </li>
           
-            <li class="pg-bg-gray ">
+            <li class="pg-bg-gray non-badged">
               
-                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
-              
-              2023-12-12 &ndash; 2023-12-15 &middot; <a href="/about/event/pgconfeu-2023-2477/">PGConf.EU 2023</a>
-            </li>
-          
-            <li class=" ">
-              
-                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
-              
-              2024-01-18 &middot; <a href="/about/event/pgday-israel-2023-2449/">PGDay Israel 2023</a>
-            </li>
-          
-            <li class="pg-bg-gray ">
-              
-                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
-              
-              2024-02-02 &ndash; 2024-02-04 &middot; <a href="/about/event/fosdem-pgday-2024-2487/">FOSDEM PGDay 2024</a>
+              2024-11-25 &ndash; 2024-11-26 &middot; <a href="/about/event/pgday-on-open-tech-summit-indonesia-2024-2513/">PGDay on Open Tech Summit Indonesia 2024</a>
             </li>
           
             <li class=" ">
               
                 <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
               
-              2024-03-14 &ndash; 2024-03-15 &middot; <a href="/about/event/postgresqlscale21x-2482/">PostgreSQL@SCaLE21x</a>
+              2025-03-05 &ndash; 2025-03-07 &middot; <a href="/about/event/pgconf-india-2025-2512/">PGConf India 2025</a>
+            </li>
+          
+            <li class="pg-bg-gray ">
+              
+                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
+              
+              2025-03-06 &ndash; 2025-03-07 &middot; <a href="/about/event/postgresqlscale22x-2517/">PostgreSQL@SCaLE22x</a>
+            </li>
+          
+            <li class=" ">
+              
+                <img src="/media/img/PostgreSQL_Badge1.svg" class="community" alt="PostgreSQL Community Event">
+              
+              2025-05-13 &ndash; 2025-05-16 &middot; <a href="/about/event/postgresql-development-conference-2025-pgconfdev-2516/">PostgreSQL Development Conference 2025 (pgconf.dev)</a>
             </li>
           
         </ul>
@@ -268,47 +286,54 @@
       <!-- Featured Post -->
         <header>
           <h3>
-            <a href="/about/news/postgresql-16-released-2715/">
-              PostgreSQL 16 Released!
+            <a href="/about/news/postgresql-17-released-2936/">
+              PostgreSQL 17 Released!
             </a>
           </h3>
           <ul class="meta">
-            <li><i class="far fa-clock"></i>&nbsp;2023-09-14</li>
+            <li><i class="far fa-clock"></i>&nbsp;2024-09-26</li>
             <!--<li><i class="far fa-comments"></i> 0</li>-->
           </ul>
         </header>
         <p>
-          The PostgreSQL Global Development Group today announced the
-          <a href="/about/news/postgresql-16-released-2715/">release of PostgreSQL 16</a>,
-          the latest version of the world's most advanced open source database.
+          The PostgreSQL Global Development Group today announced the release of
+          <a href="/docs/17/release-17.html">PostgreSQL 17</a>, the latest
+          version of the world's most advanced open source database.
         </p>
         <p>
-          <a href="/docs/16/release-16.html">PostgreSQL 16</a> raises its
-          performance, with notable improvements to query parallelism, bulk data
-          loading, and logical replication. There are many features in this
-          release for developers and administrators alike, including more
-          SQL/JSON  syntax, new monitoring stats for your workloads, and greater
-          flexibility in defining access control rules for management of
-          policies across large fleets.
+          PostgreSQL 17 builds on decades of open source development, improving
+          its performance and scalability while adapting to emergent data access
+          and storage patterns. This release of PostgreSQL adds significant
+          overall performance gains, including an overhauled memory management
+          implementation for vacuum, optimizations to storage access and
+          improvements for high concurrency workloads, speedups in bulk loading
+          and exports, and query execution improvements for indexes.
+          PostgreSQL 17 has features that benefit brand new workloads and
+          critical systems alike, such as additions to the developer experience
+          with the SQL/JSON <code>JSON_TABLE</code> command, and enhancements to
+          logical replication that simplify management of high availability
+          workloads and major version upgrades.
         </p>
         <p>
-          "As relational database patterns evolve, PostgreSQL continues to make
-          performance gains in searching and managing data at scale," said Dave
-          Page, a PostgreSQL Core Team member. "PostgreSQL 16 gives users more
-          methods to scale-up and scale-out their workloads, while giving them
-          new ways to gain insights and optimize how they manage their data."
+          "PostgreSQL 17 highlights how the global open source community, which
+          drives the development of PostgreSQL, builds enhancements that help
+          users at all stages of their database journey," said Jonathan Katz, a
+          member of the PostgreSQL core team. "Whether it's improvements for
+          operating databases at scale or new features that build on a
+          delightful developer experience, PostgreSQL 17 will enhance your data
+          management experience." 
         </p>
         <p>
           PostgreSQL, an innovative data management system known for its
-          reliability and robustness, benefits from over 35 years of open source
-          development from a global developer community and has become the
-          preferred open source relational database for organizations of all
-          sizes.
+          reliability, robustness, and extensibility, benefits from over 25
+          years of open source development from a global developer community and
+          has become the preferred open source relational database for
+          organizations of all sizes.
         </p>
         <ul class="bold">
-          <li><a href="/about/news/postgresql-16-released-2715/">Full Release Announcement</a></li>
+          <li><a href="/about/news/postgresql-17-released-2936/">Release Announcement</a></li>
           <li><a href="/about/press/">Press Kit &amp; Translations</a></li>
-          <li><a href="/docs/16/release-16.html">PostgreSQL 16 Release Notes</a></li>
+          <li><a href="/docs/17/release-17.html">PostgreSQL 17 Release Notes</a></li>
           <li><a href="/support/versioning/">Versioning Policy</a>
           <li><a href="/download/">Download</a></li>
         </ul>
@@ -322,37 +347,37 @@
         <ul class="divided">
           
             <li>
-              <h3><a href="/about/news/fosdem-pgday-2024-dates-announced-and-call-for-papers-open-2742/">FOSDEM PGDay 2024 - dates announced and call for papers open</a></h3>
+              <h3><a href="/about/news/pgspot-081-released-2944/">pgspot 0.8.1 released</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2023-10-26 by PostgreSQL Europe</li>
+                <li><i class="far fa-clock"></i>&nbsp;2024-10-14 by Timescale</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/pg_timetable-v56-is-out-2741/">pg_timetable v5.6 is out!</a></h3>
+              <h3><a href="/about/news/pgroonga-324-multilingual-fast-full-text-search-2943/">PGroonga 3.2.4 - Multilingual fast full text search</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2023-10-24 by CYBERTEC PostgreSQL International GmbH</li>
+                <li><i class="far fa-clock"></i>&nbsp;2024-10-05 by PGroonga project</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/announcement-new-products-release-dbconvert-dbconvert-for-dbf-and-postgresql-2740/">Announcement: New Products Release - DBConvert / DBConvert for DBF and PostgreSQL!</a></h3>
+              <h3><a href="/about/news/announcing-ivorysql-34-postgresql-164-support-with-oracle-compatibility-2941/">Announcing IvorySQL 3.4: PostgreSQL 16.4 Support with Oracle Compatibility</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2023-10-24 by Slotix s.r.o.</li>
+                <li><i class="far fa-clock"></i>&nbsp;2024-10-05 by Highgo Software</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/pgadmin-4-v78-released-2738/">pgAdmin 4 v7.8 Released</a></h3>
+              <h3><a href="/about/news/pg_qualstats-211-is-out-2940/">pg_qualstats 2.1.1 is out!</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2023-10-22 by pgAdmin Development Team</li>
+                <li><i class="far fa-clock"></i>&nbsp;2024-10-02 by PoWA</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/call-for-papers-pgconf-india-2024-2736/">Call for Papers - PGConf India, 2024</a></h3>
+              <h3><a href="/about/news/postgresql-17-released-2936/">PostgreSQL 17 Released!</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2023-10-22 by PGConf India</li>
+                <li><i class="far fa-clock"></i>&nbsp;2024-09-26 by PostgreSQL Global Development Group</li>
               </ul>
             </li>
           
@@ -376,90 +401,90 @@
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6bd"> Making PostgreSQL tick: New features in pg_cron</a></h3>
+            <h3><a href="https://postgr.es/p/6EG"> Tuning the glibc memory allocator (for Postgres)</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Marco Slot</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-26</li>
+              <li><i class="far fa-comments"></i>&nbsp;Tomas Vondra</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-14</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6bc"> Understand Explain Plans in PostgreSQL</a></h3>
+            <h3><a href="https://postgr.es/p/6EF"> pgsql_tweaks 0.10.7 Released</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;muhammad ali</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-26</li>
+              <li><i class="far fa-comments"></i>&nbsp;Stefanie Janine</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-13</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6bb"> FOSDEM PGDay 2024 - Dates announced and call for papers open</a></h3>
+            <h3><a href="https://postgr.es/p/6EE"> Contributions of w/c 2024-10-07 (week 41)</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Magnus Hagander</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-26</li>
+              <li><i class="far fa-comments"></i>&nbsp;Jimmy Angelakos</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-12</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6b8"> Postgres Music</a></h3>
+            <h3><a href="https://postgr.es/p/6ED"> SQL/JSON is here! (kinda “Waiting for Pg 17”)</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Hubert &#x27;depesz&#x27; Lubaczewski</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-11</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6EB"> CNPG Recipe 14 - Useful Command-Line Tools</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Gabriele Bartolini</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-11</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6EA"> Convert JSON into Columns and Rows with JSON_TABLE</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Paul Ramsey</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-11</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6EC"> PostgreSQL Berlin October 2024 Meetup</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Andreas Scherbaum</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-11</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6Ez"> More Release Note Details</a></h3>
             <ul class="meta">
               <li><i class="far fa-comments"></i>&nbsp;Bruce Momjian</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-25</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-10</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6b9"> Stop micro-posting to the Planet!</a></h3>
+            <h3><a href="https://postgr.es/p/6Eq"> Transform PostgreSQL into a Columnar Database Using Citus</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Pavlo Golub</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-25</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6b7"> Human/version sort in PostgreSQL – revisited</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Hubert &#x27;depesz&#x27; Lubaczewski</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-24</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6b4"> Waiting for PostgreSQL 17 – Add support event triggers on authenticated</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Hubert &#x27;depesz&#x27; Lubaczewski</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-24</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6b6"> Deploying Crunchy Postgres for Kubernetes in a Multi-Zone Cluster</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Bob Pacheco</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-24</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6b5"> Anonymized dump of your Postgres data</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Steven Miller</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-10-24</li>
+              <li><i class="far fa-comments"></i>&nbsp;semab tariq</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-10-10</li>
             </ul>
           </div>
         </div>
@@ -505,13 +530,13 @@
         <a href="/about/policies/coc/">Code of Conduct</a> |
         <a href="/about/">About PostgreSQL</a> |
         <a href="/about/contact/">Contact</a><br/>
-        <p>Copyright &copy; 1996-2023 The PostgreSQL Global Development Group</p>
+        <p>Copyright &copy; 1996-2024 The PostgreSQL Global Development Group</p>
       </div>
     </footer>
     <script src="/media/js/jquery-3.4.1.slim.min.js"></script>
     <script src="/media/js/popper-1.16.0.min.js"></script>
     <script src="/media/js/bootstrap-4.4.1.min.js"></script>
-    <script src="/media/js/main.js?963d9b7b"></script>
+    <script src="/media/js/main.js?606fd482"></script>
 
   </body>
 </html>
